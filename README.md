@@ -15,4 +15,6 @@ See the list of transactions `http://localhost:3000/transfers`
 
 ### Edit
 This example doesn't work. It is necessary to change line 67 in RadixKeyPair.js to:
-```return bs58_1.default.encode(Buffer.from(addressBytes));```
+```
+return bs58_1.default.encode(Buffer.from(addressBytes));
+```
