@@ -12,7 +12,6 @@ const identityManager = new RadixIdentityManager()
 
 this.myIdentity = identityManager.generateSimpleIdentity()
 
-
 const myAccount = this.myIdentity.account
 myAccount.openNodeConnection()
 console.log('My address: ', myAccount.getAddress())
